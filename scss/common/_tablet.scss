@@ -1,0 +1,117 @@
+@media screen and (max-width: 1179px) {
+	/* 코딩의 경로를 꼭 웹의 코딩과 같게 */
+	/* header 영역 */
+	#header .inner {
+		width: 100%;
+		/* 고정 픽셀은 %나 뷰포트로 전환합니다 */
+	}
+	#header .inner h1 {
+		top: 50%;
+		transform: translateY(-50%);
+		left: 30px;
+	}
+	#header .inner .menuWeb {
+		display: none;
+	}
+	/* 햄버거 버튼 */
+	#header .inner .btnCall {
+		display: block;
+	}
+	/* 모바일 메뉴 */
+	#header .inner .menuMo {
+		display: block;
+	}
+
+	/* visual영역 코딩 */
+	#visual {
+		background-image: url(../img/visual2.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+	#visual video {
+		display: none;
+	}
+	#visual .inner {
+		width: 100%;
+		padding: 0 30px;
+	}
+	#visual .inner h2 {
+		font: normal 14vw/1 'arial';
+	}
+	#visual .inner a {
+		width: 100%;
+	}
+	/* news영역 */
+	#news {
+		padding: 100px 30px;
+	}
+	#news .inner {
+		width: 100%;
+	}
+
+	#news .inner .wrap {
+		/* width: 100%; display: flex;
+    justify-content: space-between; */
+		flex-wrap: wrap;
+	}
+	#news .inner .wrap article {
+		width: 49%;
+		margin-bottom: 30px;
+	}
+
+	/* brand영역 */
+	#brand {
+		padding: 100px 30px;
+	}
+	#brand .inner {
+		width: 100%;
+	}
+	/* float으로 구현 */
+
+	#brand .inner .wrap article:nth-of-type(1) {
+		width: 49%;
+		height: 620px;
+		margin-right: 2%;
+	}
+	#brand .inner .wrap article:nth-of-type(2) {
+		width: 49%;
+		height: 300px;
+		margin-right: 0px;
+		margin-bottom: 20px;
+	}
+	#brand .inner .wrap article:nth-of-type(3) {
+		width: 49%;
+		height: 300px;
+		margin-right: 0px;
+	}
+
+	#brand .inner .wrap article img {
+		width: 100%;
+		height: 100%;
+	}
+
+	/* banner영역 */
+	#banner {
+		padding: 150px 30px;
+	}
+	#banner .inner {
+		width: 100%;
+	}
+
+	/* comments영역 */
+	#comments {
+		padding: 100px 30px;
+	}
+	#comments .inner {
+		width: 100%;
+	}
+
+	/* footer영역 */
+	#footer {
+		padding: 50px 30px;
+	}
+	#footer .inner {
+		width: 100%;
+	}
+}
